@@ -1,0 +1,124 @@
+PREPROCESSOR_DIRECTIVES: #include <stdio.h>	Line: 1	Character: 18
+KEYW_INT	Line: 2	Character: 3
+IDENTFIER: main	Line: 2	Character: 7
+SPECSYM_OPENPARENTHESES	Line: 2	Character: 8
+SPECSYM_CLOSEPARENTHESES	Line: 2	Character: 9
+SPECSYM_OPENCURLYBRACKET	Line: 2	Character: 10
+KEYW_INT	Line: 3	Character: 3
+IDENTFIER: n	Line: 3	Character: 4
+OPER_ASSIGN	Line: 3	Character: 5
+ICONST: 0	Line: 3	Character: 6
+SPECSYM_SEMICOLON	Line: 3	Character: 7
+KEYW_FLOAT	Line: 4	Character: 5
+IDENTIFIER_ARRAY: num[100]	Line: 4	Character: 13
+SPECSYM_COMMA	Line: 4	Character: 14
+IDENTFIER: sum	Line: 4	Character: 17
+OPER_ASSIGN	Line: 4	Character: 18
+FCONST: 0.000000	Line: 4	Character: 21
+SPECSYM_COMMA	Line: 4	Character: 22
+IDENTFIER: average	Line: 4	Character: 29
+OPER_ASSIGN	Line: 4	Character: 30
+FCONST: 0.000000	Line: 4	Character: 33
+SPECSYM_SEMICOLON	Line: 4	Character: 34
+IDENTFIER: printf	Line: 5	Character: 6
+SPECSYM_OPENPARENTHESES	Line: 5	Character: 7
+STRING: "Enter the number of inputs please. 100 at max.\n"	Line: 5	Character: 57
+SPECSYM_CLOSEPARENTHESES	Line: 5	Character: 58
+SPECSYM_SEMICOLON	Line: 5	Character: 59
+IDENTFIER: scanf	Line: 6	Character: 5
+SPECSYM_OPENPARENTHESES	Line: 6	Character: 6
+STRING: "%i"	Line: 6	Character: 10
+SPECSYM_COMMA	Line: 6	Character: 11
+OPER_ADDRESS	Line: 6	Character: 12
+IDENTFIER: n	Line: 6	Character: 13
+SPECSYM_CLOSEPARENTHESES	Line: 6	Character: 14
+SPECSYM_SEMICOLON	Line: 6	Character: 15
+KEYW_INT	Line: 7	Character: 3
+IDENTFIER: i	Line: 7	Character: 4
+OPER_ASSIGN	Line: 7	Character: 5
+ICONST: 0	Line: 7	Character: 6
+SPECSYM_SEMICOLON	Line: 7	Character: 7
+KEYW_FOR	Line: 8	Character: 3
+SPECSYM_OPENPARENTHESES	Line: 8	Character: 4
+IDENTFIER: i	Line: 8	Character: 5
+OPER_ASSIGN	Line: 8	Character: 6
+ICONST: 0	Line: 8	Character: 7
+SPECSYM_SEMICOLON	Line: 8	Character: 8
+IDENTFIER: i	Line: 8	Character: 9
+OPER_LESS	Line: 8	Character: 10
+ICONST: 100	Line: 8	Character: 13
+SPECSYM_SEMICOLON	Line: 8	Character: 14
+OPER_INCREMENT	Line: 8	Character: 16
+IDENTFIER: i	Line: 8	Character: 17
+SPECSYM_CLOSEPARENTHESES	Line: 8	Character: 18
+IDENTFIER: num	Line: 9	Character: 3
+[IDENTFIER: i	Line: 9	Character: 4
+]OPER_ASSIGN	Line: 9	Character: 5
+ICONST: 0	Line: 9	Character: 6
+SPECSYM_SEMICOLON	Line: 9	Character: 7
+KEYW_FOR	Line: 10	Character: 3
+SPECSYM_OPENPARENTHESES	Line: 10	Character: 4
+IDENTFIER: i	Line: 10	Character: 5
+OPER_ASSIGN	Line: 10	Character: 6
+ICONST: 0	Line: 10	Character: 7
+SPECSYM_SEMICOLON	Line: 10	Character: 8
+IDENTFIER: i	Line: 10	Character: 9
+OPER_LESS	Line: 10	Character: 10
+IDENTFIER: n	Line: 10	Character: 11
+SPECSYM_SEMICOLON	Line: 10	Character: 12
+OPER_INCREMENT	Line: 10	Character: 14
+IDENTFIER: i	Line: 10	Character: 15
+SPECSYM_CLOSEPARENTHESES	Line: 10	Character: 16
+SPECSYM_OPENCURLYBRACKET	Line: 10	Character: 17
+IDENTFIER: printf	Line: 11	Character: 6
+SPECSYM_OPENPARENTHESES	Line: 11	Character: 7
+STRING: "Input number please.\n"	Line: 11	Character: 31
+SPECSYM_CLOSEPARENTHESES	Line: 11	Character: 32
+SPECSYM_SEMICOLON	Line: 11	Character: 33
+IDENTFIER: scanf	Line: 12	Character: 5
+SPECSYM_OPENPARENTHESES	Line: 12	Character: 6
+STRING: "%g"	Line: 12	Character: 10
+SPECSYM_COMMA	Line: 12	Character: 11
+OPER_ADDRESS	Line: 12	Character: 12
+IDENTFIER: num	Line: 12	Character: 15
+[IDENTFIER: i	Line: 12	Character: 16
+]SPECSYM_CLOSEPARENTHESES	Line: 12	Character: 17
+SPECSYM_SEMICOLON	Line: 12	Character: 18
+KEYW_IF	Line: 13	Character: 2
+SPECSYM_OPENPARENTHESES	Line: 13	Character: 3
+IDENTFIER: i	Line: 13	Character: 4
+OPER_EQUAL	Line: 13	Character: 6
+ICONST: 99	Line: 13	Character: 8
+SPECSYM_CLOSEPARENTHESES	Line: 13	Character: 9
+SPECSYM_OPENCURLYBRACKET	Line: 13	Character: 10
+IDENTFIER: printf	Line: 14	Character: 6
+SPECSYM_OPENPARENTHESES	Line: 14	Character: 7
+STRING: "Maximum number of inputs recieved.\n"	Line: 14	Character: 45
+SPECSYM_CLOSEPARENTHESES	Line: 14	Character: 46
+SPECSYM_SEMICOLON	Line: 14	Character: 47
+KEYW_BREAK	Line: 15	Character: 5
+SPECSYM_SEMICOLON	Line: 15	Character: 6
+SPECSYM_CLOSECURLYBRACKET	Line: 16	Character: 1
+IDENTFIER: sum	Line: 17	Character: 3
+OPER_ADDASSIGN	Line: 17	Character: 5
+IDENTFIER: num	Line: 17	Character: 8
+[IDENTFIER: i	Line: 17	Character: 9
+]SPECSYM_SEMICOLON	Line: 17	Character: 10
+SPECSYM_CLOSECURLYBRACKET	Line: 18	Character: 1
+IDENTFIER: average	Line: 19	Character: 7
+OPER_ASSIGN	Line: 19	Character: 8
+IDENTFIER: sum	Line: 19	Character: 11
+OPER_DIVIDE	Line: 19	Character: 12
+IDENTFIER: i	Line: 19	Character: 13
+SPECSYM_SEMICOLON	Line: 19	Character: 14
+IDENTFIER: printf	Line: 20	Character: 6
+SPECSYM_OPENPARENTHESES	Line: 20	Character: 7
+STRING: " The average of these numbers is : %.3f \n"	Line: 20	Character: 51
+SPECSYM_COMMA	Line: 20	Character: 52
+IDENTFIER: average	Line: 20	Character: 59
+SPECSYM_CLOSEPARENTHESES	Line: 20	Character: 60
+SPECSYM_SEMICOLON	Line: 20	Character: 61
+KEYW_RETURN	Line: 21	Character: 6
+ICONST: 0	Line: 21	Character: 7
+SPECSYM_SEMICOLON	Line: 21	Character: 8
+SPECSYM_CLOSECURLYBRACKET	Line: 22	Character: 1
